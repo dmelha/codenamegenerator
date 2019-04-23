@@ -1,0 +1,7 @@
+red
+green
+blue
+olive
+fuchsia
+magenta
+pink

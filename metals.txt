@@ -1,0 +1,8 @@
+steel
+copper
+aluminium
+mercury
+lead
+tungsten
+wolfram
+titanium
