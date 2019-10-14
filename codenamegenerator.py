@@ -9,6 +9,7 @@ args = ap.parse_args()
 cn=[]
 for f in args.inputfiles:
     with open(f, 'r') as fd:
-        cn.append( random.choice(fd.readlines()).strip() )
+        #filter commented lines
+        cn.append( random.choice(list(filter(lambda x: not x.startswith("#") and not x.strip()=="",fd.readlines()))).strip() )
 print(' '.join(cn))
         
