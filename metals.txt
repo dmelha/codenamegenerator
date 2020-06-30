@@ -6,3 +6,7 @@ lead
 tungsten
 wolfram
 titanium
+tin
+lead
+iron
+molybdenum
